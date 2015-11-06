@@ -1,0 +1,60 @@
+.email-collect .email-content {
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%
+}
+.email-collect {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: .2EM;
+  overflow: hidden;
+  text-align: center;
+  width: 80%;
+}
+.email-collect p {
+  font-size: 15px;
+}
+.button.pink {
+  color: #f5f3f0;
+  font-weight: bold;
+  border-color: #c23585;
+  background: #c23585;
+  filter: none;
+  -webkit-box-shadow: inset 0 0.15em 0.15em #df3e99;
+  -moz-box-shadow: inset 0 0.15em 0.15em #df3e99;
+  box-shadow: inset 0 0.15em 0.15em #df3e99;
+}
+.email-collect button {
+  display: block;
+  margin: 30px auto 0 !important;
+  text-align: center;
+}
+.button {
+  padding: 0.45em 1.6em 0.375em;
+  line-height: 1.5;
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: none;
+  font-size: 1em;
+  border-radius: 1em;
+  border: 1px solid #c23585;
+}
+.button:hover {
+  border-color: #df3e99;
+  background: #df3e99;
+  background: -moz-linear-gradient(top, #c23585 0%, #df3e99 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c23585), color-stop(100%, #df3e99));
+  background: -webkit-linear-gradient(top, #c23585 0%, #df3e99 100%);
+  background: -o-linear-gradient(top, #c23585 0%, #df3e99 100%);
+  background: -ms-linear-gradient(top, #c23585 0%, #df3e99 100%);
+  background: linear-gradient(to bottom, #c23585 0%, #df3e99 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c23585', endColorstr='#df3e99',GradientType=0 );
+}
+.button.no-decoration {
+  text-shadow: none;
+  background: none;
+}
+.speaker-preview.email-collect {
+  margin: 0 0 0 3%;
+  margin-top: 0;
+}

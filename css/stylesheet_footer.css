@@ -1,0 +1,36 @@
+hr {
+  margin: 2.5em auto 2em;
+  height: 0;
+  max-width: 45em;
+  border: none;
+  border-top: 1px solid #96b9c1;
+}
+.footer.page {
+  max-width: 56em;
+}
+.footer {
+  color: #96b9c1;
+  font-size: 0.875em;
+  height: 1px;
+}
+.footer .column {
+  font-size: 0.875em;
+}
+.footer .uie a {
+  -webkit-transition: color 0.24s ease;
+  -moz-transition: color 0.24s ease;
+  -o-transition: color 0.24s ease;
+  transition: color 0.24s ease;
+  border: none;
+  color: #9360ab;
+}
+.footer .uie {
+  font-family: uie-icons;
+  font-size: 4em;
+  line-height: 1;
+  text-align: center;
+  margin: 0.5em 0 0.75em;
+  -webkit-font-smoothing: antialiased;
+  max-width: 30%;
+  padding-left: 35%;
+}

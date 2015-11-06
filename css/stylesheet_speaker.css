@@ -1,0 +1,35 @@
+.speaker-preview .headshot {
+  margin-bottom: 0.65em;
+  display: table;
+  width: 100%;
+}
+.speaker-preview .image {
+  display: table-cell;
+  width: 25%;
+  vertical-align: top;
+}
+.speaker-preview .speaker {
+  display: table-cell;
+  vertical-align: top;
+}
+.speaker-preview .speaker h2 a {
+  color:  #88878f;
+  border: none;
+}
+.speaker-preview:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.round-headshot {
+  border-radius: 50%;
+}
+.speaker-preview {
+  padding: .73em;
+  margin-bottom: 1.5em;
+  float: right;
+}
+.speaker-preview:hover {
+  box-shadow: 4px 4px 2px #ddd;
+  background-color: #f3f8f9;
+}
